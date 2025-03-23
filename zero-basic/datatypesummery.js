@@ -54,3 +54,16 @@ console.log(typeof bignumber);
 //        Function  =>  function
 //        Object  =>  object
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive), heap (non primitive)
+//  in stack you get a copy, in heap you get reference; reference matlb jo bhi chnage krte h wo orignal value ke ander krte h
+
+let myyoutubename = "kumudbala";
+
+let anothername = myyoutubename;
+anothername = "chai aur code"
+
+console.log(myyoutubename );
+console.log(anothername);
+
