@@ -25,11 +25,11 @@ function addtwono ( number1 , number2){ // number1 and number2 are parameters
     let result = number1 + number2
     return result;
 }
-const result = addtwono (2 , 5)
+// const result = addtwono (2 , 5)
 // console.log(result)
 
 // console.log("result :" , result ) ;
-addtwono(4,7) // 4 & 7 are arguments
+console.log( addtwono(4,7)) // 4 & 7 are arguments
 
 // *******************************************************
 
@@ -53,7 +53,7 @@ function calculatecartprice (...num1 ){
     return num1
 
 }
-// console.log(calculatecartprice(300,700,7899))
+console.log(calculatecartprice(300,700,7899))
 
 // *******************************************************8
 
