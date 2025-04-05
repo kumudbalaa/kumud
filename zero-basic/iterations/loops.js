@@ -19,7 +19,7 @@ for (let i = 0; i <= 10 ; i++) {
     console.log(`outher loop value : ${i}`) ;
 
     for (let j =  0; j<=10 ; j++ ) {
-        // console.log( i + '*'+ j + '=' + i*j ) ;
+        console.log( i + '*'+ j + '=' + i*j ) ;
     }
     
 }
@@ -31,7 +31,7 @@ let myarray = ["flash" , " batman" , "supermN"]
 
 for (let index = 0; index < myarray.length; index++) {
     const element = myarray[index];
-    // console.log(element)
+    console.log(element)
     
 }
 
