@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color: #212121; color: #ffff;">
+   <ul class="language">
+    <li>javascript</li>
+   </ul> 
+</body>
+
+<script>
+    function addlanguage(langname ) {
+      const li =  document.createElement('li');
+      li.innerHTML = `${langname}` 
+      document.querySelector('.language').appendChild(li)
+    }
+    addlanguage("phython")
+    addlanguage("phython")
+
+    function addoptilanguage (langname) {
+       const li = document.createElement('li');
+       li.appendChild(document.createTextNode(langname))
+       Document.querySelector('.language').appendChild(li)
+    }
+    addoptilanguage('hpkughf')
+
+    // edit
+    const secondlang = document.querySelector("li:nth-child(2)")
+    console.log(secondlang);
+    
+    const li = document.createElement('li')
+    li.textContent = "mojo"
+    secondlang.replaceWith(newli)
+
+
+</script>
+</html>
